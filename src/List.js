@@ -16,7 +16,7 @@ export function List({ item, onRemoveItem }) {
         checked={bought}
         onClick={() => setBought(!bought)}
       />
-      <label className="h1" style={bought ? style : normal}>
+      <label className="h3" style={bought ? style : normal}>
         {" "}
         {item.amount} {item.name}
       </label>
